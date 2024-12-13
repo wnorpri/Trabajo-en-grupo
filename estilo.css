@@ -1,0 +1,42 @@
+
+body {
+ background-color: #e0d0df;
+}
+header {
+    background-color: #c08ec0;
+    color: #ffffff;
+    text-align: center;
+   }
+   
+   h1 {
+    background-color: #c08ec0;
+    color: #ffffff;
+  
+   }
+   nav {
+    background-color: #cebfcd;
+   }
+   nav ul {
+    list-style: none;
+   }
+   nav ul li {
+    display: inline;
+   }
+   a {
+    text-decoration: none;
+    color: #ffffff;
+   }
+   h2 {
+    background-color: #c08ec0;
+    color: #ffffff;
+   }
+
+   article {
+    border: 1px solid #c08ec0;
+ background-color: #ffffff;
+   }
+   footer {
+    background-color: #c08ec0;
+    color: #ffffff;
+    text-align: center;
+   }
