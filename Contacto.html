@@ -8,37 +8,64 @@
         <link rel="stylesheet" href=".\css\estilo.css">
     </head>
     </head>
-    <body>
-        <header>
-     <nav>
-         <h1 id="titulo">Patitas Suaves</h1>
-        <nav id="menuprincipal">
-          <ul>
-            <li><a href="index.html" class="enlaceMenuPrincipal">Inicio</a></li>
-            <li><a href="nosotros.html" class="enlaceMenuPrincipal">Nosotros</a></li>
-            <li><a href="contacto.html" class="enlaceMenuPrincipal">Contacto</a></li>
-          </ul>
-        </nav>
-        </header>
+   <body>
+		<header>
+			<h1 id="titulo">Patitas Suaves </h1>
 
-    <main>
-        <section>
-            <h2>¿Te gustaría adoptar un compañero?</h2>
-            <article>
-                <h3>Somos Patitas Suaves</h3>
-                <p>Somos una asociación sin ánimo de lucro que intenta ayudar a los animales abandonados de la zona.</p>
-            </article>
-            <article>
-                <h3>¿Desear ayudar?</h3>
-                <p>Aceptamos todo tipo de ayuda para nuestros pequeños amigos</p>
-            </article>
-            </section>
-        </main>
+			<nav id="menuPrincipal">
+				<ul>
+					<li><a class="enlaceMenuPrincipal" href="./index.html">Inicio</a></li>
+					<li><a class="enlaceMenuPrincipal" href="./nosotros.html">Nosotros</a></li>
+					<li><a class="enlaceMenuPrincipal" href="./contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<h2 class="tituloSeccion">Contacto</h2>
 
-        <footer>
-            <p>Pie de página</p>
-        </footer>
-    
-    </body>
+			<p>Para resolver dudas y enterarte mejor de vomo adoptar puedes escribirnos, ¡Estaremos encantados de responderte!.</p>
+			<div id="contenedorFormulario">
+				<form action="#" method="post">
+					<label for="nombre">Tu nombre:</label><br>
+					<input class="cuadroTexto" type="text" id="nombre" name="nombre">
+
+					<label for="email">Tu correo electrónico:</label><br>
+					<input class="cuadroTexto" type="email" id="email" name="email">
+
+					¿Cómo nos conociste?<br>
+					<label for="rrss">
+						<input type="checkbox" id="rrss" name="conoce"> Por Redes Sociales
+					</label><br>
+					<label for="publicidad">
+						<input type="checkbox" id="publicidad" name="conoce"> Por un amigo
+					</label><br>
+					<label for="bocaboca">
+						<input type="checkbox" id="bocaboca" name="conocer"> ¿Algún anuncio?
+					</label><br><br>
+
+
+					<label for="mensaje">Lo que sea:</label><br>
+					<textarea class="cuadroTexto" id="mensaje" name="mensaje" rows="6"></textarea><br>
+
+					<button type="submit">Enviar Mensaje</button>
+				</form>
+			</div>
+
+		</main>
+	
+		<footer>
+			<span>2025 © Aula TIC 2º Bachillerato - IES Martín García Ramos</span>
+	
+			<nav id="enlaces-legales">
+				<ul>
+					<li><a href="#">Ayuda</a></li>
+					<li><a href="#">Política de privacidad</a></li>
+					<li><a href="#">Cookies</a></li>
+					<li><a href="#">Redes Sociales</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
 </html>
 
